@@ -1,0 +1,20 @@
+Hi,
+
+der aktuelle Stand vom Sa/So:
+
+Parameter bis auf zwei wurden weiter optimiert. Anbei das Diagramm. Regler sind jezt alle ruhig, allerdings sollten zwei Parameter noch angepasst werden: M12/Reg3 und 15/3 - mach ich bald.
+diese beiden neigen zu Schwingungen, dürfte nach Änderungen aber passen.
+
+
+
+Bei einigen stimmt jedoch etwas nicht mit den Ventilen/Motoren/el.Anschluss derselben, das sind:
+
+1/1 : Ventil schließt nicht ruchtig - Fehler muss noch untersucht werden (1)
+
+12/1 : Ventil schließt nicht - Motor geht nicht, Ventil hängt (2)
+
+alle anderen arbeiten ordentlich.
+
+Insbesondere die problematischen 11/3 und 18/3 laufen ruhig.
+
+

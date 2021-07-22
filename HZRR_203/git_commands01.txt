@@ -1,0 +1,81 @@
+git commands from command-line
+==============================
+
+pl, 01.06.2020
+
+
+
+
+local git repository
+--------------------
+change to working subdirectory, e.g. cd ~/test
+
+first time initialize git:   
+    git init
+
+all changes are sent to a local branch called "master"
+
+
+remote github repository
+------------------------
+if not yet available: make a github 
+rpository <repo-name> in the Internet browser
+at "https://github.com/<user-name>"
+
+connect the remote repo to the local repo:
+    git remote add origin https://github.com/<user-name>/<repo-name>.git
+
+
+
+save actual files/directories to the local repo
+-----------------------------------------------
+
+    git status          shows what has to be added
+    
+    
+    git add *           adds all files/directories do a list what has to be performed
+    git add <name>      adds a file or a directory
+
+    git add . --all     also deletes removed or renamed files
+    
+    git add . --all *   ?? works also
+    
+now the files can be physically moved to the local git-database
+
+    git commit -m "<short descripion of changes>" origin master
+    
+    // integrates the added files
+    
+
+change or add branches:
+-----------------------
+
+    git checkout <branch-name>      switch repo to the desired branch
+    
+    git checkout -b <branch-name>   generates and switches to new branch
+    
+    
+
+finally the local repo can be transferred to the remote repo:
+-------------------------------------------------------------
+
+    git push origin master         makes changes in the master branch (not recommended)
+    
+    git push origin <branch-name>  makes changes in a differently named branch
+
+
+
+Add/edit/remove files or directories as needed in the working directroy
+
+
+
+useful commands (to be continued):
+----------------------------------
+git -var -l            lists all variables used by git
+git --help -a          lists all commands
+git --help -g          lists Anleitungen
+
+
+
+show status: $ git status
+

@@ -1,0 +1,8 @@
+1* read evaluation.ini data
+ 1* select files to plot 2 days
+ 1* plotfiles copied to log/temp_plotlog/
+ 1* read selected logfiles
+ 1* into a big data array
+ 1* plot selected data to a graphics file
+ 1* graphics file is now in directory Bilder/HR2_ZZ1AKA7u9_20210127h083036-20210129h110535.png
+ 

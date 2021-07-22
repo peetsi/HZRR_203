@@ -1,0 +1,88 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+
+# Informationen zum aktuellen Heizkreis
+# wird von allen Programmen verwendet und ueber
+# das Programm "heizkreis_config.py" eingelesen
+
+# 0.1  11.01.17  pl  erstellt, mit Mod. Nr. und aktiven Modulen
+# 0.2  16.01.17  pl  erweitert um Modul_Tvor
+# 0.3  16.02.17  pl  erweitert um 1: (siehe unten)
+
+
+# Daten werden von heizkreis_config.py eingelesen
+# in der Version ab 0.3 wird über einen Parameter bestimmt was eingelesen wird
+# 0: nur die bisher üblichen Daten
+# 1: erweiterte Daten
+
+
+#-------------------------
+# 0: normale Daten
+#-------------------------
+
+# Heizkreis Nummer:
+heizkreis 2
+
+# !!! Bei Aenderungen in den Modulen regActive (siehe 1:) anpassen
+# vorhandene Module:
+modules       1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,30
+# regActive   3,2,2,3,2,2,3,2,2,02,03,02,02,03
+# fehlen: 6,15,18
+# nicht installierte oder angeschlossene Module
+# 6,15,18,19,   21, ... , 30
+
+# Modul mit Vor- und Ruecklauf Temperatur der Zentrale
+# falls keines vorhanden ist: 0
+# Dezimalzahl:
+Modul_Tvor  20
+
+# zentrale Vorlauftemperatur an folgende Module senden:
+modSendTvor     1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 
+# alte Software Version c (keine zentrale Temp. moeglich):
+# --
+
+# Messintervall in Sekunden
+interval   240
+
+# Filter Faktor; 
+# Bewertung des neuen Messwertes der zentralen Vorlauftemperatur
+filterfaktor  0.1
+
+#-------------------------
+# 1: Erweiterungen
+#-------------------------
+
+# Anzahl der aktiven Regler in jedem Modul
+# !!! Bei Aenderungen in den Modulen regActive anpassen
+# !!! no blanks allowed after ','
+# modules   1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,30
+regActive   2,2,2,3,2,2,3,2,2,02,02,02,02,02,02,02,02,02,01
+
+# Grenzwerte zur Auswertung der Uebersicht
+# Fuer die Uebersicht wird der Verlauf einiger Daten ueber einen Zeitraum
+# ermittelt. Die so erhaltenen Masswerte sollen einen bestimmten
+# Wert nicht ueberschreiten; falls ja wird eine Warnung oder ein Fehler
+# angezeigt
+# Relativ-Zahlen
+# Aenderungen in der Temperatur von Vorlauf/Stunde:
+TVorlAendWarn   7.0
+TVorlAendAlarm 10.0
+# Aenderung in der Temperatur von Ruecklauf/Stunde:
+TRueckAendWarn  15.0
+TRueckAendAlarm 30.0
+
+# Abweichung der Ruecklauftemperatur vom Sollwert
+# Grad Celsius
+TRueckDeltaPlus   3.0
+TRueckDeltaMinus -3.0
+
+# Ventilbewegungen pro Stunde
+# Relativ-Zahl
+venTravelWarn  15.0
+venTravelAlarm 50.0
+
+
+# test:
+und       0
+das       0

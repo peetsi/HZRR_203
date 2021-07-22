@@ -1,0 +1,10 @@
+{
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328old",
+    "sketch": "Software\\arduino\\hzrr-200\\hzrr200_06_a\\hzrr200_06_a.ino",
+    "build.path": "L:\\Daten\\Source Codes\\Arduino\\Doblinger_Projekte\\HZRR_200\\Software\\arduino\\hzrr-200\\hzrr200_06_a\build",
+    "browse.path": "D:\\Andi\\Documents\\Arduino\\libraries",
+    "port": "COM7",
+    "output": "../build",
+    "programmer": "AVRISP mkII"
+}

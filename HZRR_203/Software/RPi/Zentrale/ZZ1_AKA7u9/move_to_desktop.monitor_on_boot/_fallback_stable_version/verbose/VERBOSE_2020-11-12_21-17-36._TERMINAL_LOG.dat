@@ -1,0 +1,101 @@
+[21:18:35][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                get_param,11,0,TERMINAL: 
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 5, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 10,120,10,40.0,75.0,44.0,46.0,30,20.0,0.5
+READ_PARAM->par = parameters[modAdr-1]: {'timer1Tic': 10.0, 'tMeas': 120.0, 'dtBackLight': 10.0, 'tv0': 40.0, 'tv1': 75.0, 'tr0': 44.0, 'tr1': 46.0, 'tVlRxValid': 30.0, 'tempZiSoll': 20.0, 'tempZiTol': 0.5, 'r': [{'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}]}
+True -> TERMINAL
+[21:18:42][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                get_param,11,1,TERMINAL: 
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 5, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 1,5,70,80,100,40,28,34,3000,500
+READ_PARAM->pr = par["r"][st.rxSubAdr-1]: {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 6, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 0.100,0.000,0.000,1.00,1.00,1.00
+READ_PARAM->pr = par["r"][st.rxSubAdr-1]: {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 7, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 50.000,-50.000,600,900,2000,2000,2.000
+READ_PARAM->pr = par["r"][st.rxSubAdr-1]: {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}
+True -> TERMINAL
+[21:18:47][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                get_param,11,2,TERMINAL: 
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 5, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 1,5,70,80,100,40,28,34,3000,500
+READ_PARAM->pr = par["r"][st.rxSubAdr-1]: {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 6, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 0.100,0.000,0.000,1.00,1.00,1.00
+READ_PARAM->pr = par["r"][st.rxSubAdr-1]: {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 7, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 50.000,-50.000,600,900,2000,2000,2.000
+READ_PARAM->pr = par["r"][st.rxSubAdr-1]: {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}
+True -> TERMINAL
+[21:18:51][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                get_param,11,3,TERMINAL: 
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 5, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 1,5,70,80,100,40,28,34,3000,500
+READ_PARAM->pr = par["r"][st.rxSubAdr-1]: {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 6, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 0.100,0.000,0.000,1.00,1.00,1.00
+READ_PARAM->pr = par["r"][st.rxSubAdr-1]: {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 7, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 50.000,-50.000,600,900,2000,2000,2.000
+READ_PARAM->pr = par["r"][st.rxSubAdr-1]: {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}
+True -> TERMINAL
+[21:19:10][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                set_param,parameter,tr0,44,TERMINAL: 
+44 -> TERMINAL
+[21:19:38][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                send_param,11,0,TERMINAL: 
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 34, 'rxSender:', 11, 'rxProt:', 'b')
+set_param(0x22)->ACK: 34,ACK
+True -> TERMINAL
+[21:19:43][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                send_param,11,1,TERMINAL: 
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 34, 'rxSender:', 11, 'rxProt:', 'b')
+set_param(0x22)->ACK: 34,ACK
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 35, 'rxSender:', 11, 'rxProt:', 'b')
+set_param(0x23)->ACK: 35,ACK
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 36, 'rxSender:', 11, 'rxProt:', 'b')
+set_param(0x24)->ACK: 36,ACK
+True -> TERMINAL
+[21:19:49][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                send_param,11,2,TERMINAL: 
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 34, 'rxSender:', 11, 'rxProt:', 'b')
+set_param(0x22)->ACK: 34,ACK
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 35, 'rxSender:', 11, 'rxProt:', 'b')
+set_param(0x23)->ACK: 35,ACK
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 36, 'rxSender:', 11, 'rxProt:', 'b')
+set_param(0x24)->ACK: 36,ACK
+True -> TERMINAL
+[21:19:54][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                send_param,11,3,TERMINAL: 
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 34, 'rxSender:', 11, 'rxProt:', 'b')
+set_param(0x22)->ACK: 34,ACK
+
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 35, 'rxSender:', 11, 'rxProt:', 'b')
+set_param(0x23)->ACK: 35,ACK
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 36, 'rxSender:', 11, 'rxProt:', 'b')
+set_param(0x24)->ACK: 36,ACK
+True -> TERMINAL
+[21:20:15][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                read_stat,11,0,TERMINAL: 
+read_stat(mod=11,sub=0)
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 2, 'rxSender:', 11, 'rxProt:', 'b')
+READ_STAT(cn2):ACK  -- (rxSubAdr == 0)
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 4, 'rxSender:', 11, 'rxProt:', 'b')
+READ_STAT(cn4):ACK  -- (rxSubAdr == 0)
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 55, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 167197708
+get_millis->ACK: 55,167197708,167197708
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 65, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 6b
+get_jumpers->ACK: 107 (65,6b)
+00020B0b t167197.7 W VM-127.0 RM 48.5 VE 56.0 RE 48.6 RS 44.9 P821 E0004 FX20 M20 A0 -> TERMINAL
+[21:20:21][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                read_stat,11,1,TERMINAL: 
+read_stat(mod=11,sub=1)
+
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 2, 'rxSender:', 11, 'rxProt:', 'b')
+READ_STAT->CN2: {'SN': 'W', 'VM': -127.0, 'RM': 46.1, 'VE': 55.0, 'RE': 44.2, 'RS': 44.9, 'PM': 327.0}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 4, 'rxSender:', 11, 'rxProt:', 'b')
+READ_STAT->CN4: {'ER': 6, 'FX': 20.0, 'MT': 66.0, 'NL': 11.0, 'NB': 0.0}
+READ_STAT->PARAMETER: {'timer1Tic': 10.0, 'tMeas': 120.0, 'dtBackLight': 10.0, 'tv0': 40.0, 'tv1': 75.0, 'tr0': 44, 'tr1': 46.0, 'tVlRxValid': 30.0, 'tempZiSoll': 20.0, 'tempZiTol': 0.5, 'r': [{'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}]}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 55, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 167202952
+get_millis->ACK: 55,167202952,167202952
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 65, 'rxSender:', 11, 'rxProt:', 'b')
+st.rxCmd: 6b
+get_jumpers->ACK: 107 (65,6b)
+00020B1b t167203.0 W VM-127.0 RM 46.1 VE 55.0 RE 44.2 RS 44.9 P327 E0006 FX20 M66 A11 -> TERMINAL
+[14:35:03][THREAD-3][HZ_RR_TERMINAL.PY][runme]                                valve_move,2,3,5000,1,TERMINAL: 
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 49, 'rxSender:', 2, 'rxProt:', 'b')
+move_valve->ACK: 49,ACK
+True -> TERMINAL

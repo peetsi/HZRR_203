@@ -1,0 +1,3 @@
+[submodule "Software/raspberry/python/Software/raspberry/python/pyServer"]
+	path = Software/raspberry/python/Software/raspberry/python/pyServer
+	url = https://github.com/peetsi/HZRR_200

@@ -1,0 +1,82 @@
+[10:28:41][THREAD-2][HZ_RR_TERMINAL.PY][runme]                                read_stat,2,2,TERMINAL: 
+read_stat(mod=2,sub=2)
+READ_STAT->CN2: {'SN': 'W', 'VM': 70.0, 'RM': 40.0, 'VE': 70.0, 'RE': 40.0, 'RS': 0.0, 'PM': 999.0}
+READ_STAT->CN4: {'ER': 6, 'FX': 22.0, 'MT': 0.0, 'NL': 0.0, 'NB': 0.0}
+READ_STAT->PARAMETER: {'timer1Tic': 11, 'tMeas': 61, 'dtBackLight': 11, 'tv0': 40.1, 'tv1': 75.1, 'tr0': 32.1, 'tr1': 46.1, 'tVlRxValid': 16, 'tempZiSoll': 20.1, 'tempZiTol': 0.6, 'r': [{'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}]}
+
+get_jumpers->ACK: 66 (65,42)
+0002022b t584052.9 W VM 70.0 RM 40.0 VE 70.0 RE 40.0 RS  0.0 P999 E0006 FX22 M0 A0 -> TERMINAL
+[10:28:48][THREAD-2][HZ_RR_TERMINAL.PY][runme]                                read_stat,7,2,TERMINAL: 
+read_stat(mod=7,sub=2)
+READ_STAT->CN2: {'SN': 'W', 'VM': -127.0, 'RM': -127.0, 'VE': -107.0, 'RE': 40.0, 'RS': 0.0, 'PM': 999.0}
+READ_STAT->CN4: {'ER': 1, 'FX': 44.0, 'MT': 89.0, 'NL': 0.0, 'NB': 1.0}
+READ_STAT->PARAMETER: {'timer1Tic': 11, 'tMeas': 61, 'dtBackLight': 11, 'tv0': 40.1, 'tv1': 75.1, 'tr0': 32.1, 'tr1': 46.1, 'tVlRxValid': 16, 'tempZiSoll': 20.1, 'tempZiTol': 0.6, 'r': [{'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}]}
+get_jumpers->ACK: 103 (65,67)
+0002072b t7849.6 W VM-127.0 RM-127.0 VE-107.0 RE 40.0 RS  0.0 P999 E0001 FX44 M89 A0 -> TERMINAL
+[10:37:48][THREAD-2][HZ_RR_TERMINAL.PY][runme]                                read_stat,2,2,TERMINAL: 
+read_stat(mod=2,sub=2)
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 2, 'rxSender:', 2, 'rxProt:', 'b')
+READ_STAT->CN2: {'SN': 'S', 'VM': 70.0, 'RM': 40.0, 'VE': 70.0, 'RE': 40.0, 'RS': 0.0, 'PM': 999.0}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 4, 'rxSender:', 2, 'rxProt:', 'b')
+READ_STAT->CN4: {'ER': 6, 'FX': 22.0, 'MT': 0.0, 'NL': 0.0, 'NB': 0.0}
+READ_STAT->PARAMETER: {'timer1Tic': 11, 'tMeas': 61, 'dtBackLight': 11, 'tv0': 40.1, 'tv1': 75.1, 'tr0': 32.1, 'tr1': 46.1, 'tVlRxValid': 16, 'tempZiSoll': 20.1, 'tempZiTol': 0.6, 'r': [{'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}]}
+
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 55, 'rxSender:', 2, 'rxProt:', 'b')
+st.rxCmd: 584599638
+get_millis->ACK: 55,584599638,584599638
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 65, 'rxSender:', 2, 'rxProt:', 'b')
+st.rxCmd: 42
+get_jumpers->ACK: 66 (65,42)
+0002022b t584599.6 S VM 70.0 RM 40.0 VE 70.0 RE 40.0 RS  0.0 P999 E0006 FX22 M0 A0 -> TERMINAL
+[10:37:54][THREAD-2][HZ_RR_TERMINAL.PY][runme]                                read_stat,7,2,TERMINAL: 
+read_stat(mod=7,sub=2)
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 2, 'rxSender:', 7, 'rxProt:', 'b')
+READ_STAT->CN2: {'SN': 'S', 'VM': -127.0, 'RM': -127.0, 'VE': -109.0, 'RE': 40.0, 'RS': 0.0, 'PM': 999.0}
+
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 4, 'rxSender:', 7, 'rxProt:', 'b')
+READ_STAT->CN4: {'ER': 1, 'FX': 44.0, 'MT': 90.0, 'NL': 0.0, 'NB': 1.0}
+READ_STAT->PARAMETER: {'timer1Tic': 11, 'tMeas': 61, 'dtBackLight': 11, 'tv0': 40.1, 'tv1': 75.1, 'tr0': 32.1, 'tr1': 46.1, 'tVlRxValid': 16, 'tempZiSoll': 20.1, 'tempZiTol': 0.6, 'r': [{'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 15000.0, 'dtOpenBit': 15000.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.03, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}]}
+
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 55, 'rxSender:', 7, 'rxProt:', 'b')
+st.rxCmd: 8395757
+get_millis->ACK: 55,8395757,8395757
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 65, 'rxSender:', 7, 'rxProt:', 'b')
+st.rxCmd: 67
+get_jumpers->ACK: 103 (65,67)
+0002072b t8395.8 S VM-127.0 RM-127.0 VE-109.0 RE 40.0 RS  0.0 P999 E0001 FX44 M90 A0 -> TERMINAL
+[10:48:47][THREAD-2][HZ_RR_TERMINAL.PY][runme]                                read_stat,2,2,TERMINAL: 
+read_stat(mod=2,sub=2)
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 2, 'rxSender:', 2, 'rxProt:', 'b')
+READ_STAT->CN2: {'SN': 'W', 'VM': 70.0, 'RM': 40.0, 'VE': 70.0, 'RE': 40.0, 'RS': 0.0, 'PM': 999.0}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 4, 'rxSender:', 2, 'rxProt:', 'b')
+READ_STAT->CN4: {'ER': 6, 'FX': 22.0, 'MT': 0.0, 'NL': 0.0, 'NB': 0.0}
+READ_STAT->PARAMETER: {'timer1Tic': 11, 'tMeas': 61, 'dtBackLight': 11, 'tv0': 40.1, 'tv1': 75.1, 'tr0': 32.1, 'tr1': 46.1, 'tVlRxValid': 16, 'tempZiSoll': 20.1, 'tempZiTol': 0.6, 'r': [{'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}]}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 55, 'rxSender:', 2, 'rxProt:', 'b')
+st.rxCmd: 585258747
+get_millis->ACK: 55,585258747,585258747
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 65, 'rxSender:', 2, 'rxProt:', 'b')
+st.rxCmd: 42
+get_jumpers->ACK: 66 (65,42)
+0002022b t585258.7 W VM 70.0 RM 40.0 VE 70.0 RE 40.0 RS  0.0 P999 E0006 FX22 M0 A0 -> TERMINAL
+[10:48:52][THREAD-2][HZ_RR_TERMINAL.PY][runme]                                read_stat,12,2,TERMINAL: 
+read_stat(mod=12,sub=2)
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 2, 'rxSender:', 12, 'rxProt:', 'b')
+READ_STAT->CN2: {'SN': 'W', 'VM': -127.0, 'RM': -127.0, 'VE': -112.0, 'RE': 40.0, 'RS': 0.0, 'PM': 999.0}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 4, 'rxSender:', 12, 'rxProt:', 'b')
+READ_STAT->CN4: {'ER': 5, 'FX': 44.0, 'MT': 714.0, 'NL': 0.0, 'NB': 0.0}
+READ_STAT->PARAMETER: {'timer1Tic': 11, 'tMeas': 61, 'dtBackLight': 11, 'tv0': 40.1, 'tv1': 75.1, 'tr0': 32.1, 'tr1': 46.1, 'tVlRxValid': 16, 'tempZiSoll': 20.1, 'tempZiTol': 0.6, 'r': [{'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}, {'active': 1.0, 'motIMin': 5.0, 'motIMax': 70.0, 'tMotDelay': 80.0, 'tMotMin': 100.0, 'tMotMax': 40.0, 'dtOpen': 28.0, 'dtClose': 34.0, 'dtOffset': 3000.0, 'dtOpenBit': 500.0, 'tMotTotal': 0.1, 'nMotLimit': 1, 'pFakt': 0.1, 'iFakt': 0.0, 'dFakt': 0.0, 'tauTempVl': 1.0, 'tauTempRl': 1.0, 'tauM': 1.0, 'm2hi': 50.0, 'm2lo': -50.0, 'tMotPause': 600.0, 'tMotBoost': 900.0, 'dtMotBoost': 2000.0, 'dtMotBoostBack': 2000.0, 'tempTol': 2.0}]}
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 55, 'rxSender:', 12, 'rxProt:', 'b')
+st.rxCmd: 570133737
+get_millis->ACK: 55,570133737,570133737
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 65, 'rxSender:', 12, 'rxProt:', 'b')
+st.rxCmd: 6c
+get_jumpers->ACK: 108 (65,6c)
+00020C2b t570133.7 W VM-127.0 RM-127.0 VE-112.0 RE 40.0 RS  0.0 P999 E0005 FX44 M714 A0 -> TERMINAL
+[11:17:45][THREAD-2][HZ_RR_TERMINAL.PY][runme]                                send_tvor,7,65,TERMINAL: 
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 65, 'rxSender:', 5, 'rxProt:', 'b')
+st.rxCmd: 65
+get_jumpers->ACK: 101 (65,65)
+0002053b t586171.2 S VM-127.0 RM 45.8 VE-123.0 RE 50.5 RS 44.0 P555 E0004 FX20 M88047696 A82 -> ret_mon_valve_failback
+parse_answer: ('rxAdr:', 0, 'rxCmdNr:', 32, 'rxSender:', 7, 'rxProt:', 'b')
+zentrale_vorlauftemp->ACK: 32,ACK
+True -> TERMINAL

@@ -1,0 +1,82 @@
+Bewertung der Diagramme vom So 18.10.2020, 01:41:22 - 13:33:33
+==============================================================
+
+P.Loster, 19.10.2020
+
+------------------------------------------------
+Berichte von Hsnr 7 / Stock 0 / Links (Modul 1?)
+------------------------------------------------
+Kommentar zum Verlaufsdiagramm:
+-------------------------------
+0: RLTemp. zu hoch, Ventiel schließt
+   -> Abkühlung OHNE DURCHFLUSS !!! Dauert
+
+1: RL Temp. zu niedrig, Ventil regelt langsamauf 
+   -> zunächst keine Reaktion
+
+2: beim Erreichen Ventil ca. 20% schalgartige Öffung des Ventils
+   und schalgartiger Anstieg der RLT WEIT ÜBER SOLLWERT
+
+3: Kaltwasser-Schwall senkt Temperatur weiter
+
+4: Der steile Anstieg (2) und der Kaltwasserschall führen
+   für 10 Minuten zum Stop der Ventilbewegung
+
+5: Das Ventil wird schnell zugeregelt, -> (0)
+
+6: Zick-Zack bei 0% bedeutet dass das Ventil mechanisch auf 
+   auf den Anschlag fährt und wieder geringfügig öffnet um 
+   einen minimalen Druchfluss sicherzustellen
+   
+Folgerung:
+----------
+A: Ventil reagiert sehr hart auf minimale Änderung;
+   evtl. Ventil defekt oder Motor hat Spiel und Ventil hängt
+
+Änderungsvorschläge:
+--------------------
+a: Ventilvoröffnung erhöhen auf ca. 10 bis 15% ???
+b: Regelung verlangsamen
+c: Sitz des Ventilmotors prüfen
+d: Ventilfunktion prüfen
+e: ???
+
+
+
+------------------------------------------------
+Auffällig: AKA7u9 / /  (Mod3)
+------------------------------------------------
+1: Ventil Regler 1 ist geschlossen
+2: fährt öfter auf Anschlag -> kleine Voröffnung
+3: Rücklauf = fast VOLLE Vorlauf Temp.
+4: Ventil Regler 3 ist voll geöffnet
+5: Rücklauftemp knapp unter Sollwert, ist OK, aber warum ???
+
+
+
+
+
+
+------------------------------------------------
+7/3/R (Modul 4?)
+------------------------------------------------
+Kommentar zum Verlaufsdiagramm:
+-------------------------------
+ähnlich Mod1
+
+
+------------------------------------------------
+9/8/R (Modul 9?)
+------------------------------------------------
+Kommentar zum Verlaufsdiagramm:
+-------------------------------
+ähnlich Mod1;
+Regler 1: sehr ähnlich, öffnet bei ca. 28%
+Regler 3: geringere Amplitude der RLT, teilweise ok
+
+
+
+
+
+
+

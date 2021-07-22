@@ -1,0 +1,57 @@
+[    0.124676] usbcore: registered new interface driver usbfs
+[    0.124737] usbcore: registered new interface driver hub
+[    0.124865] usbcore: registered new device driver usb
+[    1.419288] usbcore: registered new interface driver lan78xx
+[    1.419351] usbcore: registered new interface driver smsc95xx
+[    2.348835] dwc_otg 3f980000.usb: DWC OTG Controller
+[    2.348876] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+[    2.348923] dwc_otg 3f980000.usb: irq 56, io mem 0x00000000
+[    2.349383] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+[    2.349399] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.349414] usb usb1: Product: DWC OTG Controller
+[    2.349427] usb usb1: Manufacturer: Linux 5.4.35-v7+ dwc_otg_hcd
+[    2.349440] usb usb1: SerialNumber: 3f980000.usb
+[    2.351360] usbcore: registered new interface driver usb-storage
+[    2.357622] usbcore: registered new interface driver usbhid
+[    2.357632] usbhid: USB HID core driver
+[    2.776795] usb 1-1: new high-speed USB device number 2 using dwc_otg
+[    2.807243] usb 1-1: New USB device found, idVendor=0424, idProduct=2514, bcdDevice= b.b3
+[    2.807265] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    3.126790] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+[    3.157189] usb 1-1.1: New USB device found, idVendor=0424, idProduct=2514, bcdDevice= b.b3
+[    3.157206] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    3.256789] usb 1-1.2: new low-speed USB device number 4 using dwc_otg
+[    3.391798] usb 1-1.2: New USB device found, idVendor=046d, idProduct=c077, bcdDevice=72.00
+[    3.391818] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.391832] usb 1-1.2: Product: USB Optical Mouse
+[    3.391846] usb 1-1.2: Manufacturer: Logitech
+[    3.397100] input: Logitech USB Optical Mouse as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.0/0003:046D:C077.0001/input/input0
+[    3.397523] hid-generic 0003:046D:C077.0001: input,hidraw0: USB HID v1.11 Mouse [Logitech USB Optical Mouse] on usb-3f980000.usb-1.2/input0
+[    3.486960] usb 1-1.1.2: new high-speed USB device number 5 using dwc_otg
+[    3.534599] usb 1-1.1.2: New USB device found, idVendor=6557, idProduct=0029, bcdDevice= 1.00
+[    3.534639] usb 1-1.1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    3.534669] usb 1-1.1.2: Product: Flash Disk
+[    3.534693] usb 1-1.1.2: Manufacturer: Generic
+[    3.534728] usb 1-1.1.2: SerialNumber: 900096C14BC4F115
+[    3.535850] usb-storage 1-1.1.2:1.0: USB Mass Storage device detected
+[    3.547051] scsi host0: usb-storage 1-1.1.2:1.0
+[    3.616886] usb 1-1.3: new low-speed USB device number 6 using dwc_otg
+[    3.773811] usb 1-1.3: New USB device found, idVendor=046d, idProduct=c31c, bcdDevice=49.00
+[    3.773831] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.773847] usb 1-1.3: Product: USB Keyboard
+[    3.773861] usb 1-1.3: Manufacturer: Logitech
+[    3.801012] input: Logitech USB Keyboard as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.0/0003:046D:C31C.0002/input/input1
+[    3.868798] hid-generic 0003:046D:C31C.0002: input,hidraw1: USB HID v1.10 Keyboard [Logitech USB Keyboard] on usb-3f980000.usb-1.3/input0
+[    3.882337] input: Logitech USB Keyboard as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.1/0003:046D:C31C.0003/input/input2
+[    3.906813] usb 1-1.1.1: new high-speed USB device number 7 using dwc_otg
+[    3.937653] usb 1-1.1.1: New USB device found, idVendor=0424, idProduct=7800, bcdDevice= 3.00
+[    3.937676] usb 1-1.1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    3.947021] hid-generic 0003:046D:C31C.0003: input,hidraw2: USB HID v1.10 Device [Logitech USB Keyboard] on usb-3f980000.usb-1.3/input1
+
+
+sudo nano /lib/udev/rules.d/60-persistent-serial.rules
+ENV{.ID_PORT}=="", SYMLINK+="serial/by-id/$env{ID_BUS}-$env{ID_SERIAL}-if$env{ID_USB_INTERFACE_NUM}
+ENV{.ID_PORT}=="?*", SYMLINK+="serial/by-id/$env{ID_BUS}-$env{ID_SERIAL}-if$env{ID_USB_INTERFACE_NUM}-port$env{.ID_PORT}
+
+sudo nano /lib/udev/rules.d/60-persistent-storage.rules
+KERNEL=="sd*|sr*|cciss*", ENV{DEVTYPE}=="disk", ENV{ID_SERIAL}=="?*", SYMLINK+="disk/by-id/$env{ID_BUS}-$env{ID_SERIAL}

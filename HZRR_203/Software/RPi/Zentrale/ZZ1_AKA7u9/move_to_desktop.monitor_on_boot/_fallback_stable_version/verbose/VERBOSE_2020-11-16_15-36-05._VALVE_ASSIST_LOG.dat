@@ -1,0 +1,6 @@
+[15:42:27][MAINTHREAD][HZ_RR_LOG_N.PY][_check_dif_soll_rueck]            rücklauf(44)(<41?True): 21.8 ;soll(==0?False): 44 ;dif(>3?False||<-3?True): -22.2 ;move_dir: 1 ;move_time: 500 ;pos_dif: 3 ;neg_dif: -3 ;range(41-47): 6
+[15:42:27][MAINTHREAD][HZ_RR_LOG_N.PY][_check_dif_soll_rueck]            ser_add_work(('valve_move', 4, 1, 500, 1, 'ret_mon_valve_failback')): -> (True, True)
+[15:42:28][MAINTHREAD][HZ_RR_LOG_N.PY][_check_dif_soll_rueck]            rücklauf(44)(<41?True): 0.0 ;soll(==0?False): 44 ;dif(>3?False||<-3?True): -44.0 ;move_dir: 1 ;move_time: 500 ;pos_dif: 3 ;neg_dif: -3 ;range(41-47): 6
+[15:42:28][MAINTHREAD][HZ_RR_LOG_N.PY][_check_dif_soll_rueck]            ser_add_work(('valve_move', 4, 2, 500, 1, 'ret_mon_valve_failback')): -> (True, True)
+[15:42:28][MAINTHREAD][HZ_RR_LOG_N.PY][_check_dif_soll_rueck]            rücklauf(44)(<41?True): 0.0 ;soll(==0?False): 44 ;dif(>3?False||<-3?True): -44.0 ;move_dir: 1 ;move_time: 500 ;pos_dif: 3 ;neg_dif: -3 ;range(41-47): 6
+[15:42:29][MAINTHREAD][HZ_RR_LOG_N.PY][_check_dif_soll_rueck]            ser_add_work(('valve_move', 4, 3, 500, 1, 'ret_mon_valve_failback')): -> (True, True)
