@@ -567,6 +567,18 @@ void parse_cmd(void) {
       }
     break;
 
+    case 9:     // send revision Nrs for Firmware and Hardware
+                // command added in rev. HZRR-203: 1.0.3
+      modbus_header();
+      strcat(s1,","); strcat(s1,FIRMWARE_NAME); 
+      strcat(s1,","); strcat(s1,FIRMWARE_VERSION);
+      strcat(s1,","); strcat(s1,FIRMWARE_DATE);
+      strcat(s1,","); strcat(s1,HARDWARE_VERSION);
+      strcat(s1,","); strcat(s1,HARDWARE_DATE);
+      strcat(s1,",");
+      modbus_trailer();
+    break;
+
     case 0x20:  // set Vorlauf temperature from Zentrale
       // received command is ":02200b,45.6,02634C" for address 2 and 45.6 degC
       st.tempVlRx = strtod( sp, &cp0 );

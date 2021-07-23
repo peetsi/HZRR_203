@@ -254,7 +254,8 @@ void init_var_parameter(void){
     par.r[i].dtOffset       =   3000;     // ms;
     par.r[i].dtOpenBit      =    500;     // ms;
     // regulation
-    par.r[i].pFakt          =      0.1;   // s/K;     dT=1K, t=0.1s => 0.1sec motor on time
+    // *** pl: p-factor changed from 0.1 to 0.03 in Version 1.0.3
+    par.r[i].pFakt          =      0.03;  // s/K;     dT=3.3K => t=0.1s => 0.1sec motor on time
     par.r[i].iFakt          =      0.0;   // s/(K*s); dT=1K, t= 3h  => ca. 1e-4sec motor on time 
     par.r[i].dFakt          =      0.0;   // s^2/K;   dT=1K, t=50s  => ca. 0.1sec motor on time
     //par.r[i].tauTempVl      = 1.0*60.0;   // sec;   

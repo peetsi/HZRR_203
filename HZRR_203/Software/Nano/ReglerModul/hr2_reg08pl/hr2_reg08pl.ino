@@ -4,7 +4,8 @@ Modul: Regler
 history:
 date       version   author(s)     change
 2020-07-17   1.00    pl            initial version
-2021-07-22   1.10    pl            added: new command: "answer rev.Nr."
+2021-07-22   1.10    pl            added: new command Nr. 9: "answer rev.Nr."
+                                   p-factor changed from 0.1 to 0.03 factory setting
 
 */
 
@@ -13,6 +14,7 @@ date       version   author(s)     change
 // *********************************************************
 // TimerOne.h               (Tools -> Manage Libraries ...)
 // LiquidCrystal_I2C.h      (Tools -> Manage Libraries ...)
+//                (LiquidCrystel I2C by Frank de Brabander)
 // DallasTemperature.h      (Tools -> Manage Libraries ...)
 // OneWire.h              (installs with DallasTemperature)
 

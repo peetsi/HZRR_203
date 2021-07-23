@@ -16,8 +16,6 @@
  *  
 FRAGEN AN BURKHARD DOBLINGER:
 =============================
-+ ok Sollwert Zimmertemperatur: 20 degC +/- 4degC ?
-+ VOREINSTELLUNG (factory setting: Alle Regler ein oder aus, regler 1 auf Zimmer?
 - Timing bei Zimmertemperatur Regler?
 - Regelparameter factory settings durchgehen und festlegen
 
@@ -25,18 +23,48 @@ FRAGEN AN BURKHARD DOBLINGER:
 
 */
 
+/*  *************************
+ *  CHANGE ON VERSION UPDATES
+ *  *************************
+ *  see file "hr2_regler.h" and change version 
+ *  Name, revision number, date for software and hardware as required
+ */
+
 /*  *********************
  *  ZUSÄTZLICHE LIBRARIES
  *  *********************
-+ <LiquidCrystal_I2C.h>  LiquidCrystel I2C by Frank de Brabander; https://gitlab.com/tandembyte/LCD_I2C
-+ "DallasTemperature.h"  Dallas Temperature, installs also OneWire library
-+ "OneWire"
-+ "TimerOne" 
+ *  see: hr2_reg0Xpl.ino
  */
 
-/*
-Bedienung des hzrr200 Regler Moduls
+/*  *******************************
+ *  PROGRAMMIERUNG DES ARDUINO NANO
+ *  *******************************
+ *  The program uses almost the whole FLASH meory of the AtMega328 uC.
+ *  Make sure the new bootloader for the Arduino Nano is installed:
+ *  1. install new bootloader on Nano if needed:
+ *    1.1. use an ISP programmer, e.g. Atmel ISP Mk2 or ArduinoISP
+ *         (can be wired and loaded to e.g. an Arduino Nano,
+ *         examples 11. ArduinoISP; wire and program it)
+ *    1.2. select from Tools (Werkzeuge): 
+ *         - Board: "Arduino Nano"
+ *         - Controller: "ATmega328P" (NOT old Bootlaoder!!!)
+ *         - USB Port to which the ISP programmer is connected
+ *         - Programmer: <select your ISP programmer>
+ *    1.3. Start Tools (Werkzeuge) -> burn bootloader (Bootloader brennen) 
+ *    
+ *    2. program the "hr2" Software:
+ *      2.1. - connect the Nano to USB port, 
+ *           - select Board, Processor and Port;
+ *           - program as usual with "upload" button, Sketch->Upload, or Ctrl-U
+ *      2.2. If the ISP programmer is connected, you can use it instead
+ *           - connect and setup as described in 1.2.
+ *           - upload using programmer (Hochladen mit Programmer), or Shift-Ctrl-U
+ */
 
+
+/*  *********************************
+    Bedienung des hzrr200 Regler Moduls
+    ***********************************
 
 Status LCD
 ==========
@@ -57,27 +85,6 @@ nach 10 Minuten automatisches Verlassen des Service Menüs
 LCD Beleuchtung
 ===============
 automatisch abschalten nach 10 Minuten, parametriert
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

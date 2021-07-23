@@ -1,7 +1,7 @@
 
 /*
  * hzrr200 Regler Hauptprogramm
- * Datei "hr2_regler01.h"
+ * Datei "hr2_regler.h"
  * 
  * 
  * 
@@ -37,15 +37,15 @@
 // ******************************************************************************************
 // VERSIONS-Informationen - ANPASSEN !!! bei Aenderungen
 // ******************************************************************************************
-#define   FIRMWARE_NAME     F("HZRR-200")
-#define   FIRMWARE_VERSION  F("1.0.b")
-#define   FIRMWARE_DATE     F("2020-09-26")
-#define   HARDWARE_VERSION  F("1.4")
-#define   HARDWARE_DATE     F("2020-03-31")
+#define   FIRMWARE_NAME     "HZRR-203"
+#define   FIRMWARE_VERSION  "1.0.3"
+#define   FIRMWARE_DATE     "2021-07-22"
+#define   HARDWARE_VERSION  "1.4"
+#define   HARDWARE_DATE     "2020-03-31"
 // ******************************************************************************************
 
 // ******************************************************************************************
-#define EEPROM_CLEAR   0   // clear eeprom after start and use factory settings
+#define EEPROM_CLEAR   0   // 1: clear eeprom after start and use factory settings
 // ******************************************************************************************
 
 
